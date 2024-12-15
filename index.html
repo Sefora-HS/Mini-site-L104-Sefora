@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="fr">
+    <head>
+        <meta name= viewport content= "width=device-width,initial-scale=1.0">
+        <title>Le mini-site de Sefora</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <!-- Boxicons -->
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+        <!-- Favicon -->
+        <link rel="icon" type="image/png.icon" href="media/favicon/myfavicon.png">
+    </head>
+    <body>
+        <!--En-tête du site-->
+        <header>
+        <h1 class="logo"><a id="haut_de_page">Sefora.</a></h1>    
+        <!--hamburger-->    
+        <input type="checkbox" id="nav_check" hidden>
+        <!--Liens vers les deux autres pages-->
+        <nav>
+        <h1 class="logo"><a>Sefora.</a></h1>    
+            <ul>
+                <li><a href="#" class="active">Accueil</a></li>
+                <li><a href="autre_articles.html">Mes autres articles</a></li>
+                <li><a href="webographie.html">Webographie</a></li>
+            </ul>
+            <br>
+        </nav>
+        <!--Button pour le hamburger-->
+        <label for="nav_check" class="hamburger">
+            <div></div>
+            <div></div>
+            <div></div>
+        </label>
+        </header>
+
+        <!--Partie : description de moi avec bouton adresse mail-->
+        <section class="me">
+            <h2>À propos de moi</h2>
+            <p>Je m'appelle sefora, j'ai 18 ans et je suis en LP MIAW 1ere année, j'aime beaucoup le developpement web et le voyage, c'est pourquoi plus tard j'aimerai combiner les deux et devenir developpeuse web à l'international</p>
+            <button type="button"><a href="mailto:sefora.sylla@etu.unilim.fr">Me contacter ici !</a></button>
+            <h4>Retrouvez mon premier article juste en dessous :</h4>
+        </section>
+        <br>
+        <!--section de l'article 1-->
+        <!--chaque article utilise pour les titres les balises h3-->
+        <section class="article">
+            <h2>Samsung la marque qui allie innovation et excellence</h2>
+            <!--Partie 1 de l'article 1-->
+                <article>   
+                    <h3>L’ascension du géant technologique Sud-coréen :</h3>
+                    <!-- Image avec source à l'aide de l'attribut title -->
+                    <img class="img_r" src="media/images/samsung_livre.jpg" alt="un telephone samsung blanc pose sur un livre ouvert" title="photo de Dhruv vishwakarma 28 janvier 2024 (https://unsplash.com/fr/photos/un-telephone-samsung-blanc-pose-sur-un-livre-ouvert-2_BPIuBU5sk?utm_content=creditCopyText&utm_medium=referral&utm_source=unsplash)">
+                    <p>
+                        Samsung est une entreprise multinationale sud-coréenne fondée en 1938 par Lee Byung-chul. 
+                        À l’origine c’était une société d’import-export dans l’alimentaire. 
+                        Elle s’est aujourd’hui diversifiée et est devenu un groupe qui comporte plusieurs filiales, dans différents domaines. 
+                        Elle est actuellement sous la direction de Han Jong-Hee et continue d’accomplir des exploits et repousser ses limites avec son slogan « Do what you can’t do ». 
+                        Elle représente 20% du PIB coréen et 20,8% de part de marché dans la téléphonie. Samsung est depuis toujours en rivalité avec Apple. 
+                        Par exemple en 2024 selon « Les Echos investir » : <strong>« la marque à la pomme aurait distribué 50,1 millions d’iPhone, 
+                        […] ce qui lui confère une part du marché mondial de 17,3%, quand Samsung, […] peut se targuer de détenir 20,8% des parts de marché. »</strong>
+                    </p>
+                </article>
+                <!--Partie 2 de l'article 1-->
+                <article>
+                    <h3>Innovation et Diversification : Les Activités Clés de Samsung</h3>
+                    <p>
+                        Samsung est une marque qui se compose de plusieurs filiales avec une large gamme de produits et de services, 
+                        dans différents secteurs. De nos jours c’est le plus grand vendeur de smartphone au monde et de tablette en Europe notamment grâce à ses modèles « Samsung Galaxy ». 
+                        Mais la marque ne s’arrête pas qu’au numérique et propose ses services dans le bâtiment, les constructions navales, 
+                        les assurances (plus grande assurance en Corée du sud) et bien plus encore. Le marché cible de Samsung est global, 
+                        il touche aussi bien les particuliers que les entreprises. Samsung est reconnu pour ses produits haut de gamme et maintient une forte compétitivité, 
+                        ce qui lui permet de garder sa place de leader dans le monde.
+                    </p>
+                </article>
+                <!--Partie 3 de l'article 1-->
+                <article>
+                    <h3>Samsung : Une Entreprise Innovante au Service de la Technologie et de l’Environnement</h3>
+                    <p>
+                        Samsung se dit être une entreprise <strong>« qui vise à développer les technologies […] grâce à un esprit d’intelligence et d’innovation continue »</strong> (Samsung), 
+                        comme par exemple la « GDDR7 » qui est selon « Phoneandroid » : <strong>« la mémoire la plus rapide au monde »</strong>. 
+                        Tout en repoussant constamment les limites de l’innovation, Samsung s’engage selon « Samsung newsroom » :  
+                        le 15 septembre 2022 à <strong>« réduire ses émissions de CO2 à zéro nette d’ici 2050 »</strong>, 
+                        à couvrir <strong>« l’intégralité des besoins en électricité de tous les sites internationaux hors Corée, 
+                        grâce aux énergies renouvelables au cours des cinq prochaines années »</strong> et développer <strong>« de nouvelles technologies de captage […] du CO2, 
+                        de purification de l’air et d’optimisation de la consommation d’eau »</strong>. 
+                        Samsung a pour objectif de rester en constante innovation en respectant à la fois l’environnement.
+                    </p>
+                    <!-- Insertion video à l'aide de la balise <video> avec source dans l'attribut title -->
+                    <video src="media/videos/samsung.mp4" alt="video prise du ciel montrant une ville avec un batiment samsung à droite" controls title="video de Aaron Hairston (https://www.pexels.com/fr-fr/video/lumineux-mer-ville-route-19909615/) 18 janvier 2024"></video>
+                </article>
+        </section>
+        <!--Fin de l'article--> 
+        <br>
+        <!--Pied de page-->
+        <footer>
+            <p>Ce site est une création personnelle de Sefora.S</p>
+            <button type="button"><a href="#haut_de_page">Haut de page</a></button>
+        </footer>
+    </body>
+</html>
